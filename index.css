@@ -67,6 +67,9 @@ body {
        height: 880px !important;
        
     }
+    .logo{
+        padding-left: 35px !important;
+    }
     .img-div{
         width: 80% !important;
         padding-left: 9% !important;
@@ -82,22 +85,25 @@ body {
    .right-image{
     width: 65% !important;
    }
-   /* .features-card
+   .features-card
    .features-card1
    .features-card12
     .features-card2{
         width: 80% !important;
-    } */
+    }
     /* .demo{
         width: 80% !important;
     } */
     .bground-image{
-        width: 80% !important;
-        padding-left: 4% !important;
+        min-width: 90% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
     .req-demo-container{
-        width: 60% !important;
-        margin-left: 15px !important;
+        width: 95% !important;
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+        margin-left: 1px !important;
     }
     .Benefit{
         margin-left: 6% !important;
@@ -362,7 +368,7 @@ a:visited {
     display: none;
     margin-left: 12%;
     width: 72%;
-    height: 1.5cm;
+    min-height: 1.4cm;
     margin-top: 2px;
     margin-bottom: 1px;
     padding-left: 1cm;
