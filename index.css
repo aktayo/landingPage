@@ -59,6 +59,9 @@ body {
     .link {
         display: none;
     }
+    .font{
+        font-size: 2.2em !important;
+    }
     .dropbtn{
         display: block !important;
     }
