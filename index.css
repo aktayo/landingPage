@@ -1,0 +1,450 @@
+body {
+    margin: 0;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+
+.dropdown {
+    /* position: relative; */
+    margin-top: 46px;
+    margin-right: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.dropbtn {
+    display: none;
+    background-color: #fff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdownContent a {
+    color: black;
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdownContent a:hover {
+    background-color: #f1f1f1;
+}
+.drop-demo-bttn{
+    margin: 0px;
+    padding: 3px;
+}
+/* Show the dropdown content when hovering over the button */
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+
+
+@media (max-width: 940px) {
+    .link {
+        display: none;
+    }
+    .dropbtn{
+        display: block !important;
+    }
+    .container{
+        
+       height: 880px !important;
+       
+    }
+    .img-div{
+        width: 80% !important;
+        padding-left: 9% !important;
+    }
+   .img1{
+    width: 95% !important;
+    /* margin-left: 2% !important; */
+   }
+   .left-mage{
+    width: 65% !important;
+    border-color: red !important;
+   }
+   .right-image{
+    width: 65% !important;
+   }
+   /* .features-card
+   .features-card1
+   .features-card12
+    .features-card2{
+        width: 80% !important;
+    } */
+    /* .demo{
+        width: 80% !important;
+    } */
+    .bground-image{
+        width: 80% !important;
+        padding-left: 4% !important;
+    }
+    .req-demo-container{
+        width: 60% !important;
+        margin-left: 15px !important;
+    }
+    .Benefit{
+        margin-left: 6% !important;
+    }
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue  !important;
+}
+
+a:active {
+    color: blue !important;
+}
+/* 
+a:visited {
+    color: black;
+} */
+
+
+
+.logo{
+    width: 180px;
+    padding-left: 200px;
+    margin-top:25px;
+}
+.banner{
+    padding-bottom: 0px;
+    display: grid;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    /* margin-bottom: 3cm; */
+  grid-template-columns: 45% 2cm 2cm  2.5cm 2cm 3cm 2cm;
+  margin-top: 0px;
+}
+.link{
+    padding: 45px;
+    padding-bottom: 0cap;
+    cursor: pointer;
+}
+.demo{
+    text-wrap:nowrap;
+    width: 140px;
+    background-color: rgb(96, 150, 250);
+    padding: 0px;
+    margin-top: 38px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: blue;
+    border: 0cap;
+    color: #fff;
+}
+.heading{
+    font-weight: 500;
+    font-size: 1.5cm;
+}
+.benefit-heading{
+    font-weight: 500;
+    font-size: 1cm;
+}
+.Benefit{
+    padding-top: 2.5cm;
+    text-align: center;
+    width: 12cm;
+    margin-left: 30%;
+    
+}
+.img1{
+    width: 35em;
+    padding-left: 3px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin: 8px;
+    /* display: flex; */
+    padding: 3px;
+    background-color: #f8f8f8;
+    height: 550px;
+}
+.doc{
+    padding-left: 2cm;
+}
+.img-div{
+    padding-left: 4cm;
+}
+.Benefit-points{
+    height: 180px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 1cm;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+.Benefit-points:hover{
+    background-color: rgb(96, 150, 250);
+    color: #fff;
+    .circle-icon{
+        background-color: #fff;
+        color: rgb(96, 150, 250);
+    }
+}
+.Benefits{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5cm;
+  text-align: center;
+  margin-left:25px ;
+  margin-right: 20px;
+  padding-top: 0cm;
+  margin-top: 1.8cm;
+}
+.circle-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: rgb(96, 150, 250);
+    position: relative;
+    left: 3.2cm;
+    top: -2.2cm;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 2px 1px 1px 1px rgb(222, 205, 248)
+}
+
+.sub-heading{
+    margin-top: -48px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+#features{
+    padding-top: 3cm;
+}
+.Features-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(490px, 1fr));
+    margin-top: 1.5cm;
+    gap: 1.5cm;
+}
+.left-mage{
+    width: 15cm;
+    /* position: absolute;
+    left: -100px;
+    transition: left 2s ease; */
+}
+/* .left-mage:hover{
+    left: 18px;
+} */
+.right-image{
+    width: 15cm;
+    /* position: absolute;
+    right: -100px;
+    transition: right 2s ease; */
+}
+/* .right-image:hover{
+    right: 18px;
+} */
+/* .div{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: blue;
+} */
+.features-card{
+    background-color: #fff;
+    padding-top: 8px;
+    padding-left: 9px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgb(145, 138, 158);
+    width: 390px;
+    height:150px ;
+    font-size: 16px;
+    font-weight: 50px;
+    font-style: italic;
+    color: #919396;
+
+    /* position: absolute;
+    left: -100px;
+    transition: left 2s ease; */
+}
+
+.features-card1{
+    background-color:rgb(96, 150, 250) ;
+    padding-left: 6px;
+    width: 390px;
+    height:159px ;
+    border-radius: 4px;
+    margin-top: 1.5cm;
+}
+.feature-heading{
+    margin-left: 1cm;
+    margin-top: 1cm;
+    font-size: 29px;
+    font-weight: 600;
+}
+.features-card2{
+    background-color: #fff;
+    padding-top: 8px;
+    padding-left: 9px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgb(145, 138, 158);
+    width: 390px;
+    height:180px ;
+    font-size: 16px;
+    font-weight: 50px;
+    font-style: italic;
+    color: #919396;
+}
+.features-card12{
+    background-color:rgb(96, 150, 250) ;
+    padding-left: 6px;
+    width: 390px;
+    height:189px ;
+    border-radius: 4px;
+    margin-top: 1.5cm;
+}
+.words{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    color: #919396;
+}
+.faq-container{
+    padding-top: 3cm;
+    display: grid;
+    padding-left: 5px;
+    margin-top: 0cm;
+   
+}
+.faq-heading{
+    font-size: 1cm;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.faq{
+    margin-left: 12%;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    padding-left: 1cm;
+    padding-top: 12px;
+    width: 75%;
+    height: 1.2cm;
+    background-color: rgb(245, 255, 255);
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgb(145, 138, 158);
+    cursor: pointer;
+}
+.ans{
+    background-color: #f7f8fa;
+    display: none;
+    margin-left: 12%;
+    width: 72%;
+    height: 1.5cm;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    padding-left: 1cm;
+    padding-right: 0.7cm;
+    color: rgb(56, 89, 117);
+    border-radius: 4px;
+}
+#clients{
+    padding-top: 2.4cm;
+}
+
+.Client-container{
+    padding-top: 0cm;
+    padding-left: 28%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+}
+.img2{
+    padding-top: 1cm;
+    width: 6cm;
+}
+.img3{
+    width: 8cm;
+}
+.bground-image{
+    background-image: url('./res/wp4114627.jpg');
+    background-repeat: no-repeat;
+    height: 25cm;
+    width: 75%;
+    margin-left: 12%;
+    color: #fff;
+    text-align: center;
+    padding-top: 1cm;
+    font-size: 35px;
+    font-weight: 600;
+}
+.req-demo-container{
+    margin-top: 0px;
+    padding-top: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+background-color: #fff;
+color: #212529;
+margin-left: 15%;
+width: 55%;
+height:17cm ;
+margin-top: 2.5cm;
+font-size: 14px;
+font-weight: 200;
+}
+.contact-name{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
+.contact-details{
+    display: grid;
+    text-align: left;
+    padding: 12px;
+}
+.contact{
+    width: 87%;
+    height: 30px;
+    margin: 0px;
+}
+.contact-info{
+    height: 30px;
+}
+
+
+
+/* @media (min-width: 768px)
+.col-md-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+} */
